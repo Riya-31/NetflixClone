@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/background.jpg);
+    background-position: center center ;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav img{
+    color: red;
+    width: 150px;
+    /* padding: 20px; */
+    position: relative;
+    z-index: 10;
+}
+
+nav div button{
+    /* padding: 10px; */
+    position: relative;
+    z-index: 10;
+
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+/* .hero span{
+    padding: 6px;
+} */
+.separation{
+    height: 7px;
+    background-color: rgb(79, 78, 78);
+    position: relative;
+    z-index: 20;
+}
+.btn{
+    padding: 5px 25px;
+    font-weight: bold;
+    color: white;
+    margin: 6px;
+    border-radius: 4px;
+    /* outline: 2px solid white; */
+    cursor: pointer;
+}
+.btn-trans{
+    outline: 2px solid white;
+    background-color: rgb(23, 23, 23,0.7);
+}
+.btn-red{
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    padding: 12px 35px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.main input{
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 15px;
+    padding-right: 170px;
+    background-color: rgb(23, 23, 23,0.7);
+    border: 1px solid gray;
+    color: white;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.first{
+    display: flex;
+    color: white;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 75vw;
+    /* gap: 10px; */
+}
+.sec-img{
+    position: relative;
+
+}
+.sec-img img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+
+}
+.sec-img video{
+    width: 29vw;
+    position: absolute;
+    top: 97px;
+    right: 87px;
+ }
+ .text{
+    display: flex;
+    flex-direction: column;
+ }
+ .text :nth-child(1){
+    font-weight: 900;
+    font-size: 46px;
+ }
+ .text :nth-child(2){
+    font-weight:400 ;
+    font-size:20px ;
+ }
+ .second{
+    display: flex;
+    color: white;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 78vw;
+ }
+ .girl-img img{
+    width: 40vw;
+    position: relative;
+
+ }
+ .boxshot{
+    width: 330px;
+    height: 100px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    position: relative;
+    left: 140px;
+    bottom: 150px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+
+
+ .boxshot img{
+    margin: 5px 8px;
+    width: 60px;
+    object-fit: contain;
+    
+ }
+ .boxshot div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .boxshot div :nth-child(1){
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+ }
+ .boxshot div :nth-child(2){
+    font-weight: 500;
+    font-size: 16px;
+    color:   rgb(0, 113, 235);
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+ }
+ 
+ .third .sec-img video{
+    width: 25vw;
+    position: absolute;
+    top: 39px;
+    right: 122px;
+}
+ .fifth{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+ .fifth .line{
+    /* justify-content: center; */
+    font-weight: 900;
+    font-size: 48px;
+    padding-top:60px ;
+    padding-bottom: 20px;
+    margin: 5px;
+ }
+ 
+ .fifth .item{
+    width: 78vw;
+    height: 20px;
+    background-color: rgb(41, 41, 41);
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 24px;
+    padding:25px 20px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .item:hover{
+    background-color:rgb(58, 56, 56) ;
+ }
+ .fifth .line2{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+ }
+ .fifth input{
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 15px;
+    padding-right: 170px;
+    background-color: rgb(23, 23, 23,0.7);
+    border: 1px solid gray;
+    color: white;
+    /* padding-bottom: 120px; */
+}
+.fifth .hero-buttons{
+    padding-bottom: 110px;
+
+}
+footer{
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.grid{
+    color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 13px;
+    padding-top: 15px;
+    margin: 20px 25px;
+
+}  
+
+
+.grid div{
+   
+    font-size: 14px ;
+    font-weight: 400;
+    text-decoration: underline;
+    /* align-items: start; */
+    
+}
+footer> :nth-child(1){
+    
+    font-size: 16px ;
+    font-weight: 400;
+    margin-top: 60px;
+    padding-left: 22px;
+}
+footer> :last-child{
+    font-size: 14px ;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-left: 23px;
+}
+footer button{
+    padding-left: 22px;
+}
+footer> :nth-last-child(2){
+    padding-left: 21px;
+}
